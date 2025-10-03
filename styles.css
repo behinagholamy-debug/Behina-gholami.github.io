@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
+  padding-top: 70px; /* space for navbar */
 }
 
 /* Navbar */
@@ -29,7 +29,8 @@ body {
 
 .logo {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #00bcd4;
 }
 
 .nav-links {
@@ -44,49 +45,30 @@ body {
   font-weight: 500;
 }
 
-.nav-links li a.active,
-.nav-links li a:hover {
-  border-bottom: 2px solid #00bcd4;
-  padding-bottom: 0.2rem;
-}
-
-.social-links a {
-  margin-left: 1rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #555;
-}
-
-.social-links a:hover {
+.nav-links li a:hover,
+.nav-links li a.active {
   color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 2px;
 }
 
-/* Hero Section */
+/* Hero section (Home only) */
 .hero {
   text-align: center;
-  padding: 8rem 1rem 4rem;
+  padding: 3rem 1rem;
   background: #f5f5f5;
 }
 
 .profile-pic {
-  width: 140px;
+  width: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
   border: 3px solid #00bcd4;
 }
 
-.hero h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero p {
-  margin-bottom: 1rem;
-  color: #555;
-}
-
 .cv-btn {
   display: inline-block;
+  margin-top: 1rem;
   padding: 0.6rem 1.2rem;
   background: #00bcd4;
   color: #fff;
@@ -98,10 +80,10 @@ body {
   background: #0097a7;
 }
 
-/* Sections */
+/* Content sections */
 section {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 3rem auto;
   padding: 0 1rem;
 }
 
@@ -112,16 +94,11 @@ section h2 {
   color: #444;
 }
 
-ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
-}
-
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   background: #222;
   color: #fff;
+  margin-top: 3rem;
 }
