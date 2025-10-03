@@ -1,74 +1,81 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Behina Gholami - CV</title>
+  <title>Behina Gholami - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img class="profile" src="profile.jpg" alt="My photo">
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">BEHINA</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-links">
+      <a href="mailto:your.email@example.com">📧</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">in</a>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home" class="hero">
+    <img src="profile.jpg" alt="Profile" class="profile-pic">
     <h1>Behina Gholami</h1>
-    <p>Welcome! I'm Behina, a [Your Program] student conducting research at [Your University].</p>
-    <a class="cv-btn" href="cv.pdf" target="_blank">📄 View my CV</a>
-  </header>
+    <p>Software Developer | Researcher | Web Enthusiast</p>
+    <a class="cv-btn" href="cv.pdf" target="_blank">View My CV</a>
+  </section>
 
-  <main>
-    <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am passionate about research, technology, and innovation. 
-        My academic journey has allowed me to explore various aspects of [Your Field], 
-        and I’m eager to expand my knowledge and contribute to impactful projects.
-      </p>
-    </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Welcome! I'm Behina, a [Your Program] student conducting research at [Your University]. 
+      Here you'll find a showcase of my academic journey, research projects, and professional experiences.
+    </p>
+  </section>
 
-    <!-- Education Section -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>B.Sc. in Computer Science</strong> – [Your University], [Years]</li>
-        <li><strong>M.Sc. (Ongoing)</strong> – [Your Program], [University]</li>
-      </ul>
-    </section>
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Sc. in Computer Science – [University], [Years]</li>
+      <li>M.Sc. (Ongoing) – [Program], [University]</li>
+    </ul>
+  </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-      <h2>Experience</h2>
-      <ul>
-        <li><strong>Research Assistant</strong> – [University], [Year–Year]</li>
-        <li><strong>Internship</strong> – [Company], [Year]</li>
-      </ul>
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/behina-gholami/project1" target="_blank">Project 1</a> – Description</li>
+      <li><a href="https://github.com/behina-gholami/project2" target="_blank">Project 2</a> – Description</li>
+    </ul>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <p>Python, JavaScript, HTML/CSS, Git, Data Analysis, Research Writing</p>
-    </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Software Developer – [Company], [Year–Year]</li>
+      <li>Research Assistant – [University], [Year–Year]</li>
+    </ul>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/behina-gholami/project1" target="_blank">Project 1</a> – Short description</li>
-        <li><a href="https://github.com/behina-gholami/project2" target="_blank">Project 2</a> – Short description</li>
-      </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-      <p>GitHub: <a href="https://github.com/behina-gholami" target="_blank">github.com/behina-gholami</a></p>
-    </section>
-  </main>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/behina-gholami" target="_blank">github.com/behina-gholami</a></p>
+  </section>
 
   <footer>
     <p>© 2025 Behina Gholami</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
